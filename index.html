@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nobel Prize — Pakistan's Pride</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── NAVBAR ─────────────────────────────────── -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">🏆 <span>Nobel</span> Pakistan</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="help.html">Help</a></li>
+    </ul>
+    <div class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO CAROUSEL ──────────────────────────── -->
+<section id="home" class="hero">
+
+  <div class="slide active">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Malala_Yousafzai_2015.jpg" alt="Malala Yousafzai">
+  </div>
+  <div class="slide">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Abdus_Salam_1987.jpg" alt="Abdus Salam">
+  </div>
+  <div class="slide">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Albert_Einstein_Head.jpg" alt="Albert Einstein">
+  </div>
+  <div class="slide">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marie_Curie_c1920.jpg" alt="Marie Curie">
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Celebrating Excellence</p>
+    <h1>Pakistan's <em>Nobel</em><br>Laureates</h1>
+    <p>Honoring the visionaries who carried Pakistan's name to the world's highest stage of human achievement.</p>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;">
+      <a href="#pakistan" class="btn btn-gold">Pakistan Winners</a>
+      <a href="#international" class="btn btn-outline">Global Laureates</a>
+    </div>
+  </div>
+
+  <!-- arrows -->
+  <button class="carousel-prev" aria-label="Previous" style="position:absolute;left:20px;top:50%;transform:translateY(-50%);z-index:8;background:rgba(0,0,0,0.45);border:none;color:#fff;font-size:22px;width:44px;height:44px;border-radius:50%;cursor:pointer;transition:.3s;" onmouseover="this.style.background='rgba(200,153,42,0.8)'" onmouseout="this.style.background='rgba(0,0,0,0.45)'">‹</button>
+  <button class="carousel-next" aria-label="Next" style="position:absolute;right:20px;top:50%;transform:translateY(-50%);z-index:8;background:rgba(0,0,0,0.45);border:none;color:#fff;font-size:22px;width:44px;height:44px;border-radius:50%;cursor:pointer;transition:.3s;" onmouseover="this.style.background='rgba(200,153,42,0.8)'" onmouseout="this.style.background='rgba(0,0,0,0.45)'">›</button>
+
+  <div class="carousel-dots">
+    <button class="dot active"></button>
+    <button class="dot"></button>
+    <button class="dot"></button>
+    <button class="dot"></button>
+  </div>
+
+  <div class="carousel-caption" id="carousel-caption">
+    Malala Yousafzai — Nobel Peace Prize 2014
+  </div>
+
+</section>
+
+<!-- ── STATS ──────────────────────────────────── -->
+<div class="stat-bar">
+  <div class="stat-grid">
+    <div class="stat-item reveal">
+      <div class="stat-num" data-target="2" data-suffix="">2</div>
+      <div class="stat-label">Pakistani Laureates</div>
+    </div>
+    <div class="stat-item reveal">
+      <div class="stat-num" data-target="1979">1979</div>
+      <div class="stat-label">First Nobel Year</div>
+    </div>
+    <div class="stat-item reveal">
+      <div class="stat-num" data-target="1" data-suffix="">1</div>
+      <div class="stat-label">Physics Nobel</div>
+    </div>
+    <div class="stat-item reveal">
+      <div class="stat-num" data-target="1" data-suffix="">1</div>
+      <div class="stat-label">Peace Nobel</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── PAKISTAN LAUREATES ─────────────────────── -->
+<section id="pakistan" style="background:var(--cream);">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">🇵🇰 Pakistan's Finest</p>
+      <h2>Nobel Laureates from Pakistan</h2>
+      <p>Two remarkable figures who changed the world — and made Pakistan proud on the global stage.</p>
+      <div class="divider"></div>
+    </div>
+
+    <div class="laureate-feature reveal">
+
+      <!-- Abdus Salam -->
+      <div class="laureate-card">
+        <div class="laureate-accent green"></div>
+        <div class="laureate-inner">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Abdus_Salam_1987.jpg" alt="Dr. Abdus Salam">
+          <p class="section-eyebrow" style="font-size:10px;">Physics · 1979</p>
+          <h3>Dr. Abdus Salam</h3>
+          <span class="card-year">Nobel Prize in Physics</span>
+          <blockquote>
+            "Scientific thought is the common heritage of mankind."
+          </blockquote>
+          <p style="font-size:14px;color:var(--muted);line-height:1.7;">
+            Pakistan's first Nobel Laureate, honoured for his contributions to the
+            electroweak unification theory, one of the cornerstones of modern particle
+            physics. He co-founded ICTP in Trieste, dedicating his life to science
+            in the developing world.
+          </p>
+          <a href="about.html#salam" class="card-link">Read full story →</a>
+        </div>
+      </div>
+
+      <!-- Malala -->
+      <div class="laureate-card">
+        <div class="laureate-accent gold"></div>
+        <div class="laureate-inner">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Malala_Yousafzai_2015.jpg" alt="Malala Yousafzai">
+          <p class="section-eyebrow" style="font-size:10px;">Peace · 2014</p>
+          <h3>Malala Yousafzai</h3>
+          <span class="card-year">Nobel Peace Prize</span>
+          <blockquote>
+            "One child, one teacher, one book, one pen can change the world."
+          </blockquote>
+          <p style="font-size:14px;color:var(--muted);line-height:1.7;">
+            The youngest Nobel Prize winner in history. Born in the Swat Valley,
+            she defied the Taliban's ban on girls' education and survived an
+            assassination attempt to become the world's most prominent advocate for
+            every child's right to learn.
+          </p>
+          <a href="about.html#malala" class="card-link">Read full story →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── QUOTE BAND ─────────────────────────────── -->
+<div class="quote-band">
+  <blockquote>
+    "One child, one teacher, one book, one pen can change the world."
+  </blockquote>
+  <cite>— Malala Yousafzai, Nobel Peace Prize 2014</cite>
+</div>
+
+<!-- ── TIMELINE ───────────────────────────────── -->
+<section style="background:#f0f5f1;">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">A Legacy in Time</p>
+      <h2>Pakistan's Nobel Journey</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-year">1979</div>
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>Dr. Abdus Salam wins Physics Nobel</h4>
+          <p>Awarded for theoretical work on the unified weak and electromagnetic interaction — the first Pakistani to win a Nobel Prize.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-year">1984</div>
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>ICTP named for Abdus Salam</h4>
+          <p>The International Centre for Theoretical Physics in Trieste, which he founded in 1964, is officially renamed in his honour.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-year">2012</div>
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>Malala survives assassination attempt</h4>
+          <p>Shot by Taliban gunmen in Mingora, Swat — her survival and recovery galvanised global support for girls' education.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-year">2014</div>
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>Malala receives Nobel Peace Prize</h4>
+          <p>At age 17, Malala Yousafzai becomes the youngest Nobel laureate in history, sharing the prize with India's Kailash Satyarthi.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── INTERNATIONAL ──────────────────────────── -->
+<section id="international" style="background:var(--white);">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">🌍 Around the World</p>
+      <h2>International Nobel Laureates</h2>
+      <p>A selection of the world's most celebrated Nobel Prize winners whose work changed humanity.</p>
+      <div class="divider"></div>
+    </div>
+
+    <div class="card-grid">
+
+      <div class="card reveal">
+        <div class="card-flag"></div>
+        <img class="card-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Albert_Einstein_Head.jpg"
+          alt="Albert Einstein">
+        <div class="card-body">
+          <p class="card-category">Physics</p>
+          <h3>Albert Einstein</h3>
+          <span class="card-year">1921</span>
+          <p>Awarded for his discovery of the law of the photoelectric effect, foundational to quantum theory. His theory of relativity reshaped our understanding of space, time, and gravity.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-flag"></div>
+        <img class="card-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marie_Curie_c1920.jpg"
+          alt="Marie Curie">
+        <div class="card-body">
+          <p class="card-category">Physics &amp; Chemistry</p>
+          <h3>Marie Curie</h3>
+          <span class="card-year">1903 &amp; 1911</span>
+          <p>The only person to win Nobel Prizes in two different sciences. Her pioneering research on radioactivity opened an entirely new field of scientific inquiry.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-flag"></div>
+        <img class="card-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg"
+          alt="Martin Luther King Jr.">
+        <div class="card-body">
+          <p class="card-category">Peace</p>
+          <h3>Martin Luther King Jr.</h3>
+          <span class="card-year">1964</span>
+          <p>Recognised for leading the non-violent civil rights movement in the United States, fighting racial discrimination and injustice with courage and dignity.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-flag"></div>
+        <img class="card-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg"
+          alt="Nelson Mandela">
+        <div class="card-body">
+          <p class="card-category">Peace</p>
+          <h3>Nelson Mandela</h3>
+          <span class="card-year">1993</span>
+          <p>Honoured for his lifelong struggle against apartheid and his role in South Africa's peaceful democratic transition after 27 years of imprisonment.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-flag"></div>
+        <img class="card-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mother_Teresa_1.jpg"
+          alt="Mother Teresa">
+        <div class="card-body">
+          <p class="card-category">Peace</p>
+          <h3>Mother Teresa</h3>
+          <span class="card-year">1979</span>
+          <p>Awarded for her decades of work among the poorest of the poor in Calcutta — founding the Missionaries of Charity and serving humanity with extraordinary compassion.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-flag"></div>
+        <img class="card-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/7/77/Rabindranath_Tagore_in_1909.jpg"
+          alt="Rabindranath Tagore">
+        <div class="card-body">
+          <p class="card-category">Literature</p>
+          <h3>Rabindranath Tagore</h3>
+          <span class="card-year">1913</span>
+          <p>The first non-European Nobel Laureate in Literature, honoured for his profoundly sensitive, fresh, and beautiful verse from his collection <em>Gitanjali</em>.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────────── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="font-size:18px;">🏆 <span>Nobel</span> Pakistan</a>
+        <p>A tribute to the brilliance of Pakistan's Nobel laureates and the global figures who transformed our world.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="help.html">Help &amp; FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Laureates</h4>
+        <ul>
+          <li><a href="about.html#salam">Dr. Abdus Salam</a></li>
+          <li><a href="about.html#malala">Malala Yousafzai</a></li>
+          <li><a href="#international">International</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Learn More</h4>
+        <ul>
+          <li><a href="https://www.nobelprize.org" target="_blank">NobelPrize.org</a></li>
+          <li><a href="https://www.malala.org" target="_blank">Malala Fund</a></li>
+          <li><a href="https://www.ictp.it" target="_blank">ICTP Trieste</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Nobel Prize — Pakistan's Pride &nbsp;|&nbsp; Built with ❤️ &nbsp;|&nbsp; HTML · CSS · JavaScript</p>
+    </div>
+  </div>
+</footer>
+
+<script src="shared.js"></script>
+</body>
+</html>
